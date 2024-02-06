@@ -265,14 +265,6 @@ nav li:first-child {
   }
 }
 
-@media (max-width: 700px) {
-  .resumeContainer {
-    display: flex;
-    height: max-content;
-    box-shadow: 0 2px 20px #83c0c1;
-  }
-}
-
 .resumeContainer {
   background: #f0f0f0;
   max-width: 800px;
@@ -280,6 +272,13 @@ nav li:first-child {
   height: 1300px;
   padding: 20px;
   box-shadow: 0 2px 20px #83c0c1;
+}
+
+@media (max-width: 700px) {
+  .resumeContainer {
+    display: flex;
+    height: 2300px;
+  }
 }
 
 .header {
@@ -467,8 +466,8 @@ nav li:first-child {
 
 @media (max-width: 700px) {
   .gui-container {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     position: relative;
     width: 130px;
     height: 270px;
@@ -482,8 +481,8 @@ nav li:first-child {
 
 @media (max-width: 700px) {
   .landingPage-conteiner {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     position: relative;
     width: 130px;
     height: 270px;
