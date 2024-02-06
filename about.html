@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="HomeAssignment2.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="HomeAssignment2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&family=PT+Sans+Narrow&family=Syne:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shahar Hekter Portfolio</title>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+      <ul>
+        <li class="hideOnMobile">
+          <a href="HomeAssignment2.html">HomePage</a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="about.html" class="active">About</a>
+        </li>
+        <li class="hideOnMobile"><a href="resume.html">Resume</a></li>
+        <li class="hideOnMobile"><a href="projects.html">Projects</a></li>
+        <li onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </head>
+
+  <body>
+    <section class="about_section">
+      <div class="about_me_conteiner">
+        <div class="about_me_pic">
+          <img src="IMG_88633 (1).jpg" alt="my project" class="my-img" />
+        </div>
+        <div class="about_me">
+          <h2 class="about_section_titel">About Me</h2>
+          <p>
+            I am a student of industrial engineering and management and in
+            addition I recently started working as a fruad analyst at RSA
+            security. I love challenges, learning new things and in my remaining
+            free time the beach is the first place to visit, right after a short
+            crossfit workout. In recent years I have learned by myself and with
+            the help of good friends to play the acustic and electric guitar,
+            and good music is always around me.
+          </p>
+        </div>
+        <div class="futer_me">
+          <h2 class="about_section_titel">
+            Where would I like to be in the future?
+          </h2>
+          <p>
+            My main goal for the near and far future is to continue to develop
+            professionally and personally as much as possible, to learn new
+            technologies and become proficient in the tools I know, to
+            contribute to society and my workplace, and of course to keep free
+            time in between to continue traveling the world and catch good music
+            concerts.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
