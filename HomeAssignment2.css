@@ -265,6 +265,14 @@ nav li:first-child {
   }
 }
 
+@media (max-width: 700px) {
+  .resumeContainer {
+    display: flex;
+    height: max-content;
+    box-shadow: 0 2px 20px #83c0c1;
+  }
+}
+
 .resumeContainer {
   background: #f0f0f0;
   max-width: 800px;
@@ -351,12 +359,6 @@ nav li:first-child {
 #projects {
   position: relative;
   text-align: center;
-}
-
-@media (max-width: 700px) {
-  #projects {
-    display: flex;
-  }
 }
 
 .myProjectsPage {
@@ -456,6 +458,56 @@ nav li:first-child {
   border-radius: 16px;
   inset: 5px;
   z-index: -1;
+}
+@media (max-width: 700px) {
+  #projects {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .gui-container {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    width: 130px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 16px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .landingPage-conteiner {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    width: 130px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 16px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .project-img {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    width: 100px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 16px;
+    z-index: 1;
+  }
 }
 
 @keyframes rotate {
